@@ -38,12 +38,13 @@ int main() {
 
     return 0;
 }
-´´´c
+```
 
 ### libft
 
 To use libft in your project, simply include the header file and link against the library:
 
+```c
 #include "libft.h"
 
 int main() {
@@ -51,10 +52,12 @@ int main() {
 
     return 0;
 }
+```
 
 ### ft_printf
 To use ft_printf, include the header file and use it as you would with the standard printf:
 
+```c
 #include "ft_printf.h"
 
 int main() {
@@ -62,7 +65,8 @@ int main() {
 
     return 0;
 }
-```c
+```
+
 ### Installation
 
 To use these components in your project, simply copy the relevant files into your project directory and include the corresponding header files in your source code.
