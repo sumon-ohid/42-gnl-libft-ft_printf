@@ -6,14 +6,14 @@ This project is a collection of three essential components often required in 42 
 
 ### Components
 
-1. **get_next_line (gnl):**
-   - `get_next_line` is a function designed to read a line from a file descriptor. It is particularly useful when dealing with input streams that may not fit into fixed-size buffers.
-
-2. **libft:**
+1. **libft:**
    - `libft` is a custom C library that provides a set of common functions for string manipulation, memory management, linked lists, and more. This library is meant to be a replacement for the standard C library functions, with a focus on efficiency and 42 School guidelines.
 
-3. **ft_printf:**
+2. **ft_printf:**
    - `ft_printf` is a custom implementation of the printf function. It allows formatted output to be displayed on the console, offering a wide range of formatting options similar to the standard printf in C.
+
+3. **get_next_line (gnl):**
+   - `get_next_line` is a function designed to read a line from a file descriptor. It is particularly useful when dealing with input streams that may not fit into fixed-size buffers.
 
 ## Usage
 
