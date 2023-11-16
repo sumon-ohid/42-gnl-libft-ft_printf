@@ -32,7 +32,8 @@ int main(void)
    //your code
    return (0);
 }
+```
 
 ### Installation
 
-To use these components in your project, simply copy the relevant files into your project directory and include the corresponding header files in your source code.
+To use these components in your project, simply copy the relevant files into your project directory and include the corresponding header files in your source code. Change as you need.
