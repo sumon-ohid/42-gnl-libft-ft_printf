@@ -22,50 +22,16 @@ This project is a collection of three essential components often required in 42 
 To use `get_next_line` in your project, follow these steps:
 
 ```c
-#include "get_next_line.h"
 
-int main() {
-    int fd;
-    char *line;
+//modify names in the super_header.h as you need.
 
-    fd = open("example.txt", O_RDONLY);
-    while (get_next_line(fd, &line)) {
-        // Process each line as needed
-        printf("%s\n", line);
-        free(line);
-    }
-    close(fd);
+#include "super_header.h"
 
-    return 0;
+int main(void)
+{
+   //your code
+   return (0);
 }
-```
-
-### libft
-
-To use libft in your project, simply include the header file and link against the library:
-
-```c
-#include "libft.h"
-
-int main() {
-    // Use libft functions here
-
-    return 0;
-}
-```
-
-### ft_printf
-To use ft_printf, include the header file and use it as you would with the standard printf:
-
-```c
-#include "ft_printf.h"
-
-int main() {
-    ft_printf("Hello, %s!\n", "world");
-
-    return 0;
-}
-```
 
 ### Installation
 
